@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "setup.sh"
       },
       {
         "title": "Step 2",
@@ -73,6 +74,12 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+        "client": [{"file": "setup_environment.sh", "target": "/root"} ],
+        "host01": [{"file": "setup_environment.sh", "target": "/root"} ],
+        "host02": [{"file": "setup_environment.sh", "target": "/root"} ]
+     },
+  
   "environment": {
     "uilayout": "terminal-iframe"
   },
