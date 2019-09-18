@@ -1,6 +1,6 @@
 {
-  "title": "SPIRE + envoy MTLS demo A",
-  "description": "using SPIRE to provide certificates to Envoy proxy, and demonstrate mutual-TLS",
+  "title": "spire + envoy demo",
+  "description": "spire + envoy demo",
   "difficulty": "Intermediate",
   "time": "30 minutes",
   "details": {
@@ -64,26 +64,6 @@
       {
         "title": "Step 15",
         "text": "step15.md"
-      },
-      {
-        "title": "Step 16",
-        "text": "step16.md"
-      },
-      {
-        "title": "Step 17",
-        "text": "step17.md"
-      },
-      {
-        "title": "Step 18",
-        "text": "step18.md"
-      },
-      {
-        "title": "Step 19",
-        "text": "step19.md"
-      },
-      {
-        "title": "Step 20",
-        "text": "step20.md"
       }
     ],
     "intro": {
