@@ -75,9 +75,11 @@
     }
   },
   "assets": {
-        "host01": [{"file": "*", "target": "/root"} ]
-     },
-  
+      "host01": [
+          {"file": "setup_environment.sh", "target": "/root/", "chmod": "+x"},
+          {"file": "setup.sh", "target": "/root/", "chmod": "+x"}
+      ]
+  },
   "environment": {
     "uilayout": "terminal-iframe"
   },
