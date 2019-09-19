@@ -76,8 +76,8 @@
   },
   "assets": {
       "host01": [
-          {"file": "assets/setup_environment.sh", "target": "/root/", "chmod": "+x"},
-          {"file": "assets/setup.sh", "target": "/root/", "chmod": "+x"}
+          {"file": "assets/setup_environment.sh", "target": "/tmp", "chmod": "+x"},
+          {"file": "assets/setup.sh", "target": "/tmp", "chmod": "+x"}
       ]
   },
   "environment": {
