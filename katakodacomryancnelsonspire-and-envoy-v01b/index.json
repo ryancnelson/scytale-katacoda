@@ -1,0 +1,48 @@
+{
+  "title": "spire and envoy v01b with ubuntu image",
+  "description": "spire and envoy v01b with ubuntu",
+  "time": "30 minutes",
+  "private": false,
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "code": "setup.sh"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+          "client": [{"file": "setup_environment.sh", "target": "/root"} ],
+          "host01": [{"file": "setup_environment.sh", "target": "/root"} ],
+          "host02": [{"file": "setup_environment.sh", "target": "/root"} ]
+        }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
